@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         routes: {
           AppRoutes.HOME: (_) => const TasksList(),
-          AppRoutes.TASK_FORM: (_) => const TaskForm()
+          AppRoutes.TASK_FORM: (_) => TaskForm()
         },
       ),
     );

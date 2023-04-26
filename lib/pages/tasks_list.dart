@@ -22,7 +22,9 @@ class TasksList extends StatelessWidget {
               Icons.add
             ),
             onPressed: () {
-              Navigator.of(context).pushNamed(AppRoutes.TASK_FORM);
+              Navigator.of(context).pushNamed(
+                AppRoutes.TASK_FORM
+              );
             },
           )
         ],

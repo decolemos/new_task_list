@@ -1,9 +1,9 @@
 class Task {
   final String? id;
-  final String number;
-  final String applicant;
-  final String description;
-  final String sector;
+  final String? number;
+  final String? applicant;
+  final String? description;
+  final String? sector;
 
   const Task ({
     this.id,
